@@ -1,0 +1,7 @@
+{
+    "telemetry.enableTelemetry": false,
+    "files.autoSave": "onWindowChange",
+    "editor.minimap.enabled": false,
+    "window.openFoldersInNewWindow": "on",
+    "window.title": "${rootName}"
+}
