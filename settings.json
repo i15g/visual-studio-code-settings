@@ -1,7 +1,11 @@
 {
     "telemetry.enableTelemetry": false,
-    "files.autoSave": "onWindowChange",
+    "files.autoSave": "onFocusChange",
     "editor.minimap.enabled": false,
     "window.openFoldersInNewWindow": "on",
-    "window.title": "${rootName}"
+    "window.title": "${rootName}",
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.rightClickBehavior": "default",
+    "terminal.integrated.scrollback": 100000,
+    "workbench.editor.enablePreviewFromQuickOpen": false,
 }
