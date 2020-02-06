@@ -14,5 +14,9 @@
         "key": "ctrl+shift+k",
         "command": "-editor.action.deleteLines",
         "when": "textInputFocus && !editorReadonly"
-    }
+    },
+    {
+        "key": "ctrl+m",
+        "command": "workbench.action.toggleMaximizedPanel"
+    },
 ]
