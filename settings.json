@@ -8,4 +8,8 @@
     "terminal.integrated.rightClickBehavior": "default",
     "terminal.integrated.scrollback": 100000,
     "workbench.editor.enablePreviewFromQuickOpen": false,
+    "git.autofetch": true,
+    "markdown.preview.fontFamily": "Consolas, 'Courier New', monospace",
+    "files.trimTrailingWhitespace": true,
+    "files.trimFinalNewlines": true
 }
