@@ -1,15 +1,21 @@
 {
-    "telemetry.enableTelemetry": false,
-    "files.autoSave": "onFocusChange",
-    "editor.minimap.enabled": false,
-    "window.openFoldersInNewWindow": "on",
-    "window.title": "${rootName}",
-    "terminal.integrated.cursorStyle": "line",
-    "terminal.integrated.rightClickBehavior": "default",
-    "terminal.integrated.scrollback": 100000,
-    "workbench.editor.enablePreviewFromQuickOpen": false,
-    "git.autofetch": true,
-    "markdown.preview.fontFamily": "Consolas, 'Courier New', monospace",
-    "files.trimTrailingWhitespace": true,
-    "files.trimFinalNewlines": true
+  "telemetry.enableTelemetry": false,
+  "files.autoSave": "onFocusChange",
+  "editor.minimap.enabled": false,
+  "window.openFoldersInNewWindow": "on",
+  "window.title": "${rootName}",
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.rightClickBehavior": "default",
+  "terminal.integrated.scrollback": 100000,
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "git.autofetch": true,
+  "markdown.preview.fontFamily": "Consolas, 'Courier New', monospace",
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "spellright.ignoreFiles": ["**/.gitignore", "**/.spellignore", "*.lock"],
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true
 }
